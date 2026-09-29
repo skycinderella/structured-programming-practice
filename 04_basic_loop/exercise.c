@@ -17,7 +17,7 @@ int main()
         double fahrenheit = (9.0 / 5.0) * cel + 32;
 
         //Print the pair, Fahrenheit rounded to 1 decimal place
-        printf("%d\t%.1f\n", cel, fahrenheit);
+        printf("%d\t%.3f\n", cel, fahrenheit);
     }
 
     return 0;
